@@ -1,0 +1,181 @@
+<android.support.v4.widget.DrawerLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/drawer_layout"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+        android:background="@drawable/citp_background1080">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/citp_logo"
+            android:src="@drawable/citp_logo"
+            android:background="@null"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ornament1"
+            android:src="@drawable/ornament_faq"
+            android:background="@null"
+            android:layout_alignBottom="@+id/donate_icon"
+            android:layout_centerHorizontal="true" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ornament2"
+            android:src="@drawable/ornament_map"
+            android:background="@null"
+            android:layout_below="@+id/citp_logo"
+            android:layout_toLeftOf="@+id/ornament1"
+            android:layout_toStartOf="@+id/ornament1"
+            android:layout_marginTop="42dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ornament3"
+            android:src="@drawable/ornament_parking"
+            android:background="@null"
+            android:layout_alignTop="@+id/ornament2"
+            android:layout_toRightOf="@+id/ornament5"
+            android:layout_toEndOf="@+id/ornament5" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ornament4"
+            android:src="@drawable/ornament_food"
+            android:background="@null"
+            android:layout_alignTop="@+id/ornament5"
+            android:layout_toRightOf="@+id/fb_icon_final"
+            android:layout_toEndOf="@+id/fb_icon_final" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ornament5"
+            android:src="@drawable/ornament_partners"
+            android:background="@null"
+            android:layout_marginBottom="43dp"
+            android:layout_above="@+id/ornament8"
+            android:layout_toRightOf="@+id/ornament2"
+            android:layout_toEndOf="@+id/ornament2" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ornament6"
+            android:src="@drawable/ornament_calendar"
+            android:background="@null"
+            android:layout_alignTop="@+id/ornament5"
+            android:layout_alignLeft="@+id/donate_icon"
+            android:layout_alignStart="@+id/donate_icon" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ornament7"
+            android:src="@drawable/ornament_volunteer"
+            android:background="@null"
+            android:layout_above="@+id/fb_icon_final"
+            android:layout_toLeftOf="@+id/ornament2"
+            android:layout_toStartOf="@+id/ornament2"
+            android:layout_marginBottom="29dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ornament8"
+            android:src="@drawable/ornament_ff"
+            android:background="@null"
+            android:layout_alignTop="@+id/ornament7"
+            android:layout_centerHorizontal="true" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ornament9"
+            android:src="@drawable/ornament_history"
+            android:background="@null"
+            android:layout_alignTop="@+id/ornament8"
+            android:layout_toRightOf="@+id/ornament3"
+            android:layout_toEndOf="@+id/ornament3" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/donate_icon"
+            android:src="@drawable/donate"
+            android:background="@null"
+            android:layout_above="@+id/ornament2"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fb_icon_final"
+            android:src="@drawable/fb_icon_final"
+            android:background="@null"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/twitter_icon_final"
+            android:src="@drawable/twitter_icon_final"
+            android:background="@null"
+            android:layout_marginLeft="40dp"
+            android:layout_marginStart="40dp"
+            android:layout_alignTop="@+id/fb_icon_final"
+            android:layout_toRightOf="@+id/fb_icon_final"
+            android:layout_toEndOf="@+id/fb_icon_final" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/insta_icon_final"
+            android:src="@drawable/insta_icon_final"
+            android:background="@null"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/yt_icon_final"
+            android:src="@drawable/yt_icon_final"
+            android:background="@null"
+            android:layout_marginRight="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_alignTop="@+id/twitter_icon_final"
+            android:layout_toLeftOf="@+id/insta_icon_final"
+            android:layout_toStartOf="@+id/insta_icon_final" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/navList"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|start"
+        android:background="#ffeeeeee" />
+
+</android.support.v4.widget.DrawerLayout>
+
+

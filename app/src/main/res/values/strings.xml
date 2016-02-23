@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Christmas in the Park</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_web_view">WebViewActivity</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="title_activity_content_view">ContentViewActivity</string>
+
+    <string name="title_activity_image_view">ImageViewActivity</string>
+
+    <string name="title_activity_image_view_fs">ImageViewFSActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="title_activity_team">TeamActivity</string>
+    <string name="title_activity_contact_us">ContactUsActivity</string>
+    <string name="title_activity_pr">PRActivity</string>
+    <string name="title_activity_directors">DirectorsActivity</string>
+
+    <string name="about">Christmas in the Park is an annual holiday tradition that takes place in the heart of Downtown San José at the Plaza de Cesar Chavez. For over 30 years, this whimsical event has brought people from all over the Bay Area together during the holidays.
+
+Each year, the two-acre park is transformed into a holiday fantasy with over 60 musical and animated exhibits, glittering lights and the 60-foot Community Giving Tree. Some of the original displays housed in one of the largest exhibits, the Lima Train, include a melting snowman, caroling mice and elf woodcrafters. Guests enter a winter wonderland of lights, songs and local entertainment while strolling through an enchanted forest of trees decorated by San José schools, community groups and businesses.
+
+Christmas in the Park is a non-profit organization that is supported through fundraising efforts and is free to the public. Children can have their photograph taken with Santa, watch nightly entertainment and enjoy holiday themed refreshments.
+
+The City of San José is an in-kind sponsor and works closely with in providing services. It takes more than 260,000 volunteer hours from Board Members and the community to bring this well-loved holiday tradition to San José each year.</string>
+
+
+</resources>
